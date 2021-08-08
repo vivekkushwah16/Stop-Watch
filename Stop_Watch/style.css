@@ -1,0 +1,40 @@
+body{
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    color: beige;
+}
+.digit{
+    font:130px bold;
+   
+}
+.text{
+    font:40px bold;
+    padding-right:10px ;
+}
+#btns{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    color: #000;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 25px bold;
+    margin: 0 10px;
+    cursor: pointer;
+}
+#start{
+    background-color: blueviolet;
+}
+#stop{
+    background-color: aqua;
+}
+#rest{
+    background-color: rgb(15, 222, 230);
+}
